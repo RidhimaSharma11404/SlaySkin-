@@ -99,10 +99,9 @@ export default function SkinScanner({ onAnalysisComplete, onProceedToQuiz }) {
     setAnalyzing(true);
     setMetricsPreview(null);
     try {
-      // Simulate 1.5s ML inference delay for laser animation feel
       const [metrics] = await Promise.all([
         analyzeSkinImage(imgSource),
-        new Promise(res => setTimeout(res, 1600))
+        new Promise(res => setTimeout(res, 1400))
       ]);
       setMetricsPreview(metrics);
       if (onAnalysisComplete) {
@@ -133,10 +132,10 @@ export default function SkinScanner({ onAnalysisComplete, onProceedToQuiz }) {
           <span>Step 1 of 2: Computer-Vision Face Scan</span>
         </div>
         <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900">
-          Smart AI <span className="text-gradient-slay">Skin Diagnostic Scanner</span>
+          Skin Diagnostic <span className="text-gradient-slay">Scanner</span>
         </h2>
         <p className="text-sm sm:text-base text-gray-600 max-w-xl mx-auto">
-          Position your face in good lighting. Our ML model evaluates skin hydration proxy, erythema redness, shine, and pore texture.
+          Position your face in good lighting. Our model evaluates skin hydration proxy, erythema redness, shine, and pore texture.
         </p>
       </div>
 
@@ -285,7 +284,7 @@ export default function SkinScanner({ onAnalysisComplete, onProceedToQuiz }) {
         {mode === 'samples' && !capturedImage && (
           <div className="py-4 space-y-4">
             <p className="text-center text-xs font-semibold text-gray-600">
-              Select a pre-calibrated sample profile for instant ML testing:
+              Select a pre-calibrated sample profile for instant testing:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
               {SAMPLE_FACIAL_SCANS.map((sample) => (
@@ -326,7 +325,7 @@ export default function SkinScanner({ onAnalysisComplete, onProceedToQuiz }) {
                   <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center animate-spin mb-3">
                     <Sparkles className="w-6 h-6 text-pink-300" />
                   </div>
-                  <p className="text-sm font-extrabold tracking-wide">Running Computer-Vision ML...</p>
+                  <p className="text-sm font-extrabold tracking-wide">Analyzing facial metrics...</p>
                   <p className="text-xs text-pink-200">Evaluating erythema, sebum gloss, & texture</p>
                 </div>
               )}

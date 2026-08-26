@@ -44,7 +44,7 @@ export default function Navbar({ activeTab, setActiveTab, user, onOpenAuth, onLo
                   SlaySkin
                 </span>
                 <span className="text-xs px-2 py-0.5 rounded-full bg-pink-100 text-pink-700 font-bold border border-pink-200">
-                  AI ML
+                  ML Edition
                 </span>
               </div>
               <p className="text-[11px] font-medium text-pink-600/80 tracking-wide">

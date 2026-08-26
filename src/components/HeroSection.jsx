@@ -27,20 +27,20 @@ export default function HeroSection({ onStartScan, onStartQuiz, onExploreProduct
             {/* Aesthetic Tag Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-100/90 border border-pink-300 text-pink-700 text-xs sm:text-sm font-bold shadow-xs">
               <Sparkles className="w-4 h-4 text-pink-500 animate-spin" style={{ animationDuration: '6s' }} />
-              <span>Next-Gen Skincare Diagnostic & Routine Matcher</span>
+              <span>Smart Skincare Diagnostic & Routine Matcher</span>
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-gray-900 leading-[1.12]">
               Slay Your Skin with{' '}
               <span className="text-gradient-slay underline decoration-pink-300 decoration-wavy decoration-2">
-                Everyday AI Matches
+                Everyday Matches
               </span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              No heavy prescription meds or confusing medical jargon. SlaySkin uses <b>Computer-Vision ML</b> to analyze your selfie & skin habits, instantly matching gentle daily cleansers, vitamin serums, and barrier moisturizers with direct links across <b>Amazon, Nykaa, Sephora, & Ulta</b>.
+              No heavy prescription meds or confusing medical jargon. SlaySkin uses <b>Computer-Vision & ML scoring</b> to analyze your selfie & skin habits, instantly matching gentle daily cleansers, vitamin serums, and barrier moisturizers with direct links across <b>Amazon, Nykaa, Sephora, & Ulta</b>.
             </p>
 
             {/* CTAs */}
@@ -50,7 +50,7 @@ export default function HeroSection({ onStartScan, onStartQuiz, onExploreProduct
                 className="w-full sm:w-auto btn-slay-primary px-7 py-4 rounded-2xl text-base font-extrabold flex items-center justify-center gap-3 group"
               >
                 <Camera className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-                <span>Scan Face with AI</span>
+                <span>Scan Face Diagnostic</span>
               </button>
 
               <button
@@ -94,7 +94,7 @@ export default function HeroSection({ onStartScan, onStartQuiz, onExploreProduct
                 <div className="flex items-center gap-2.5">
                   <div className="w-3 h-3 rounded-full bg-emerald-400 animate-ping" />
                   <span className="text-xs font-extrabold text-pink-800 tracking-wide uppercase">
-                    Live AI Diagnostic Preview
+                    Live Diagnostic Preview
                   </span>
                 </div>
                 <span className="px-2.5 py-0.5 rounded-full bg-pink-100 text-pink-700 text-xs font-bold">
@@ -113,7 +113,7 @@ export default function HeroSection({ onStartScan, onStartQuiz, onExploreProduct
                 {/* Laser scan line animation overlay */}
                 <div className="absolute inset-x-0 h-1 bg-gradient-to-r from-transparent via-pink-400 to-transparent animate-scan-laser shadow-[0_0_12px_#F472B6]" />
 
-                {/* AI Facial Keypoint Annotations */}
+                {/* Facial Keypoint Annotations */}
                 <div className="absolute top-1/4 left-1/2 -translate-x-1/2 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-[11px] text-pink-200 border border-pink-400/50 flex items-center gap-1.5 shadow-lg">
                   <Droplets className="w-3.5 h-3.5 text-pink-300" />
                   <span>T-Zone Sebum: <b>Balanced</b></span>
@@ -168,7 +168,7 @@ export default function HeroSection({ onStartScan, onStartQuiz, onExploreProduct
             </div>
             <h3 className="text-lg font-bold text-gray-900">Computer-Vision Face Analysis</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Upload a selfie or use your live webcam. Our ML algorithm calculates radiance, oiliness, redness, and texture metrics instantly.
+              Upload a selfie or use your live webcam. Our CV algorithm calculates radiance, oiliness, redness, and texture metrics instantly.
             </p>
           </div>
 

@@ -22,7 +22,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
     e.preventDefault();
     const userObj = {
       name: name || (isSignUp ? 'Glow Member' : 'Maya Sharma'),
-      email: email || 'user@slayskin.ai',
+      email: email || 'user@slayskin.com',
       isLoggedIn: true,
       skinType: 'combination'
     };
@@ -34,7 +34,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
   const handleGuestLogin = () => {
     const guestUser = {
       name: 'Guest Slay Member',
-      email: 'guest@slayskin.ai',
+      email: 'guest@slayskin.com',
       isLoggedIn: true,
       skinType: 'combination'
     };
@@ -46,7 +46,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
   const handleQuickProfile = (profileName, skinType) => {
     const userObj = {
       name: profileName,
-      email: `${profileName.toLowerCase()}@slayskin.ai`,
+      email: `${profileName.toLowerCase()}@slayskin.com`,
       isLoggedIn: true,
       skinType: skinType
     };

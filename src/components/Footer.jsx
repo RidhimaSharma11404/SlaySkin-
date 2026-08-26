@@ -15,11 +15,11 @@ export default function Footer({ onNavigate }) {
               </div>
               <span className="text-xl font-extrabold text-gradient-slay">SlaySkin</span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-pink-100 text-pink-700 font-bold">
-                AI Skincare
+                Smart Skincare
               </span>
             </div>
             <p className="text-xs text-gray-600 max-w-sm leading-relaxed">
-              Your smart AI skincare companion. We analyze your skin condition using computer-vision and match gentle, non-medicated daily cleansers, serums, and barrier moisturizers with direct store links.
+              Your daily skincare companion. We analyze your skin condition using computer-vision and match gentle, non-medicated daily cleansers, serums, and barrier moisturizers with direct store links.
             </p>
             <div className="flex items-center gap-2 text-xs text-gray-500 pt-1">
               <span>Made with</span>
@@ -34,7 +34,7 @@ export default function Footer({ onNavigate }) {
             <ul className="space-y-1.5 text-xs text-gray-600">
               <li>
                 <button onClick={() => onNavigate('scanner')} className="hover:text-pink-600 transition-colors">
-                  AI Face Scanner
+                  Face Scanner
                 </button>
               </li>
               <li>
@@ -82,7 +82,7 @@ export default function Footer({ onNavigate }) {
               <b>Cosmetic Reference Notice:</b> All matched items are non-medicated, over-the-counter cosmetic essentials. Consult a dermatologist for severe dermatological conditions.
             </span>
           </div>
-          <p>© {new Date().getFullYear()} SlaySkin AI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SlaySkin. All rights reserved.</p>
         </div>
 
       </div>
