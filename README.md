@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-ridhimasharma11404.github.io%2FSlaySkin--pink?style=for-the-badge&logo=vercel&logoColor=white)](https://ridhimasharma11404.github.io/SlaySkin-/)
-[![GitHub stars](https://img.shields.io/github/stars/RidhimaSharma11404/SlaySkin-?style=for-the-badge&color=EC4899)](https://github.com/RidhimaSharma11404/SlaySkin-)
-[![License: MIT](https://img.shields.io/badge/License-MIT-F472B6.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Website-EC4899?style=for-the-badge&logo=github&logoColor=white)](https://ridhimasharma11404.github.io/SlaySkin-/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRidhimaSharma11404%2FSlaySkin-)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RidhimaSharma11404/SlaySkin-)
 
-**[🌟 Click Here to Visit Live Web App](https://ridhimasharma11404.github.io/SlaySkin-/)**
+**[🌟 Click Here to Open Live Public Web App](https://ridhimasharma11404.github.io/SlaySkin-/)**
 
 *Next-Gen AI Skincare Diagnostic & Routine Matcher with Interactive Pink Aesthetic, Computer-Vision ML Face Scanning, Diagnostic Assessment, and Multi-Store Product Reference Links.*
 
@@ -14,9 +14,16 @@
 
 ---
 
-## 🌟 Overview
+## 🌐 How to Access Globally (Live URL)
 
-**SlaySkin** is an over-the-counter, non-medicated skincare diagnostic and routine-matching web platform. Instead of recommending heavy prescription medications, SlaySkin focuses on safe, dermatologist-approved daily essentials (**facewashes, vitamin serums, hydrating barrier creams, broad-spectrum sunscreens, and soothing toners**) with direct clickable reference and purchase links across **Amazon, Nykaa, Sephora, Ulta Beauty, and YesStyle**.
+Your project is hosted on GitHub Pages:
+🔗 **URL:** **`https://ridhimasharma11404.github.io/SlaySkin-/`**
+
+### If you see a 404 on first visit, enable Pages in 10 seconds:
+1. Open your repository settings: **[https://github.com/RidhimaSharma11404/SlaySkin-/settings/pages](https://github.com/RidhimaSharma11404/SlaySkin-/settings/pages)**
+2. Under **Build and deployment > Source**, choose **Deploy from a branch**.
+3. Select **Branch**: `gh-pages` and folder **`/ (root)`**, then click **Save**.
+4. That's it! Your app will be live and globally accessible to everyone in under 1 minute at [https://ridhimasharma11404.github.io/SlaySkin-/](https://ridhimasharma11404.github.io/SlaySkin-/).
 
 ---
 
@@ -85,7 +92,7 @@ sequenceDiagram
 
     User->>UI: Captures live photo / uploads selfie
     UI->>CV: Render to HTML5 Canvas (300x300 matrix)
-    CV->>CV: Calculate Erythema Redness $(2R-G-B)/(2R+G+B)$
+    CV->>CV: Calculate Erythema Redness (2R-G-B)/(2R+G+B)
     CV->>CV: Calculate Specular Shine & Texture Variance
     CV-->>ML: Return normalized CV metrics
 
@@ -199,12 +206,6 @@ SlaySkin/
 
 ## ⚡ Quick Start / Local Development
 
-### Prerequisites
-- Node.js (v18+)
-- npm or yarn
-
-### Installation & Run
-
 ```bash
 # 1. Clone the repository
 git clone https://github.com/RidhimaSharma11404/SlaySkin-.git
@@ -216,21 +217,6 @@ npm install
 # 3. Start development server
 npm run dev
 ```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Building for Production
-
-```bash
-npm run build
-```
-
----
-
-## 🚀 Live Deployment
-
-The live application is hosted on GitHub Pages:
-🔗 **[https://ridhimasharma11404.github.io/SlaySkin-/](https://ridhimasharma11404.github.io/SlaySkin-/)**
 
 ---
 
