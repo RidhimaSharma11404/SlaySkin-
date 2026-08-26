@@ -2,28 +2,29 @@
 
 <div align="center">
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Website-EC4899?style=for-the-badge&logo=github&logoColor=white)](https://ridhimasharma11404.github.io/SlaySkin-/)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRidhimaSharma11404%2FSlaySkin-)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RidhimaSharma11404/SlaySkin-)
+[![Live on Netlify](https://img.shields.io/badge/Live%20Deploy-nimble--trifle--ecceb8.netlify.app-00AD9F?style=for-the-badge&logo=netlify&logoColor=white)](https://nimble-trifle-ecceb8.netlify.app/)
+[![GitHub Stars](https://img.shields.io/github/stars/RidhimaSharma11404/SlaySkin-?style=for-the-badge&color=EC4899)](https://github.com/RidhimaSharma11404/SlaySkin-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F472B6.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**[🌟 Click Here to Open Live Public Web App](https://ridhimasharma11404.github.io/SlaySkin-/)**
+### 🌸 **[👉 Click Here to Open Live Web App (Netlify)](https://nimble-trifle-ecceb8.netlify.app/)** 🌸
 
-*Next-Gen AI Skincare Diagnostic & Routine Matcher with Interactive Pink Aesthetic, Computer-Vision ML Face Scanning, Diagnostic Assessment, and Multi-Store Product Reference Links.*
+*Next-Gen AI Skincare Diagnostic & Routine Matcher with Interactive Pink Aesthetic, Computer-Vision ML Face Scanning, Diagnostic Assessment, and Multi-Store Product Reference Links (Amazon, Nykaa, Sephora, Ulta, YesStyle).*
 
 </div>
 
 ---
 
-## 🌐 How to Access Globally (Live URL)
+## 🌐 Live Deployment Links
 
-Your project is hosted on GitHub Pages:
-🔗 **URL:** **`https://ridhimasharma11404.github.io/SlaySkin-/`**
+- 🚀 **Primary Live URL (Netlify):** **[https://nimble-trifle-ecceb8.netlify.app/](https://nimble-trifle-ecceb8.netlify.app/)**
+- 🌸 **Mirror URL (GitHub Pages):** **[https://ridhimasharma11404.github.io/SlaySkin-/](https://ridhimasharma11404.github.io/SlaySkin-/)**
+- 📦 **GitHub Repository:** **[https://github.com/RidhimaSharma11404/SlaySkin-](https://github.com/RidhimaSharma11404/SlaySkin-)**
 
-### If you see a 404 on first visit, enable Pages in 10 seconds:
-1. Open your repository settings: **[https://github.com/RidhimaSharma11404/SlaySkin-/settings/pages](https://github.com/RidhimaSharma11404/SlaySkin-/settings/pages)**
-2. Under **Build and deployment > Source**, choose **Deploy from a branch**.
-3. Select **Branch**: `gh-pages` and folder **`/ (root)`**, then click **Save**.
-4. That's it! Your app will be live and globally accessible to everyone in under 1 minute at [https://ridhimasharma11404.github.io/SlaySkin-/](https://ridhimasharma11404.github.io/SlaySkin-/).
+---
+
+## 🌟 Overview
+
+**SlaySkin** is an over-the-counter, non-medicated skincare diagnostic and routine-matching web platform. Instead of recommending heavy prescription medications, SlaySkin focuses on safe, dermatologist-approved daily essentials (**facewashes, vitamin serums, hydrating barrier creams, broad-spectrum sunscreens, and soothing toners**) with direct clickable reference and purchase links across **Amazon, Nykaa, Sephora, Ulta Beauty, and YesStyle**.
 
 ---
 
